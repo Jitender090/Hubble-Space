@@ -1,0 +1,38 @@
+@media (max-width: 578px) {
+  .hamburger {
+    display: block;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+  .nav-link {
+    position: absolute;
+    background-color: #030303e3;
+    display: none;
+  }
+  .cross#navsection {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    top: 0px;
+    position: relative;
+    gap: 20px;
+  }
+  .cross#nav-link {
+    padding-left: 30px;
+    display: flex;
+    transition: 2s ease-in-out;
+
+    align-items: center;
+    /* bottom: 50px;
+    justify-content: space-evenly;
+    position: absolute;
+    height: 75%;
+    padding-left: 30px;
+    display: flex; */
+  }
+  .slide {
+    height: 300px;
+  }
+}

@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.ct-fm-container {
+  width: 100%;
+  color: #fff;
+  background-image: url(../images/sec-bg.webp);
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #000;
+}
+
+.ct-fm-cl {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+.ct-fm-sec1 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 20px 0px 60px;
+}
+.ct-fm-sec1 h2 {
+  font-size: 40px;
+  font-family: font2;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.ct-fm-sec1 h4 {
+  font-family: font3;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+.ct-fm-sec1 p {
+  font-family: font3;
+  letter-spacing: 1px;
+}
+form {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+  margin: 20px 0px;
+}
+.input-sec {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  gap: 12px;
+}
+label,
+input {
+  font-family: font3;
+}
+input {
+  padding: 10px 7px;
+  font-size: 15px;
+  border: none;
+  background-color: #aaaaaa5e;
+  color: #fff;
+}
+#submit-btn {
+  color: #fee715;
+}
+#submit-btn:hover {
+  background-color: #fee715;
+  color: #000;
+}
+textarea {
+  background-color: #aaaaaa5e;
+  color: #fff;
+  font-size: 15px;
+  padding: 5px 7px;
+}
+@media (max-width: 578px) {
+  .ct-fm-sec1 {
+    margin-bottom: 40px;
+  }
+  .input-sec {
+    width: 90%;
+  }
+}

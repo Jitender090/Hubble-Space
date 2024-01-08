@@ -1,0 +1,148 @@
+@media (max-width: 875px) {
+  .hamburger {
+    display: block;
+    position: fixed;
+    right: 30px;
+  }
+  .nav-link {
+    position: absolute;
+    background-color: #030303e3;
+    display: none;
+    transition: 2s ease-in-out;
+  }
+  .cross#nav-link {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    top: 0%;
+    transition: 2s ease-in-out;
+  }
+  .cross#menubar {
+    flex-direction: column;
+    align-items: center;
+    bottom: 50px;
+    justify-content: space-evenly;
+    position: absolute;
+    height: 75%;
+    padding-left: 30px;
+  }
+  .slide {
+    height: 300px;
+  }
+}
+
+.txt-content1 {
+  font-size: 25px;
+}
+.mn-txt {
+  font-size: 32px;
+}
+
+.exp-sec a {
+  font-size: 13px;
+}
+
+@media (max-width: 578px) {
+  .mn-container,
+  #about-sec,
+  .mission-sec,
+  .img-sec,
+  .contact-sec {
+    background-attachment: unset;
+  }
+  .rocket-icon {
+    display: none;
+  }
+  .txt-content1 {
+    font-size: 20px;
+  }
+  .mn-txt {
+    font-size: 23px;
+  }
+  .mn-sec {
+    flex-direction: column;
+    gap: 60px;
+  }
+  #about-sec {
+    height: auto;
+  }
+  .hd-content {
+    width: 100%;
+  }
+  .img-content {
+    width: 100%;
+    animation: rotate 7s infinite;
+  }
+
+  @keyframes rotate {
+    0% {
+      transform: translateY(2%) scale(1);
+    }
+    50% {
+      transform: translateY(-2%) scale(0.8);
+    }
+
+    100% {
+      transform: translateY(2%) scale(1);
+    }
+  }
+  .hd-content h2 {
+    font-size: 40px;
+  }
+  .txt-nm {
+    left: -10px;
+    font-size: 70px;
+  }
+  .ms-mn-sec {
+    flex-direction: column-reverse;
+    gap: 60px;
+  }
+  .txt-nm-2,
+  .lt-txt {
+    left: -10px;
+    font-size: 70px;
+  }
+  .ms-sec {
+    width: 100%;
+  }
+  .slide-show-gallery {
+    flex-direction: column;
+    padding: 65px 0px 70px;
+    gap: 60px;
+  }
+  .img-txt {
+    font-size: 40px;
+  }
+  .contact-cl {
+    flex-direction: column-reverse;
+    padding: 0px;
+    gap: 60px;
+  }
+  .contact-rw1 {
+    width: 100%;
+  }
+  .contact-rw2 {
+    width: 100%;
+  }
+  .contact-rw2 span {
+    left: -10px;
+    font-size: 70px;
+  }
+  .contact-rw2 h2 {
+    font-size: 39px;
+  }
+  /* .gq-sec {
+    margin-top: 37px;
+  } */
+  .social-icon {
+    font-size: 15px;
+    width: 180px;
+  }
+  .ft-txt p {
+    font-size: 8px;
+  }
+  .ft-txt h3 {
+    font-size: 11px;
+  }
+}

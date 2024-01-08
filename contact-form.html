@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact-form</title>
+    <!-- <link rel="stylesheet" href="./Css/index.css"> -->
+    <link rel="stylesheet" href="./Css/contact-form.css">
+    <link rel="stylesheet" href="./Css/font.css">
+    <link rel="stylesheet" href="./Css/back-page.css">
+</head>
+
+<body>
+
+    <div class="ct-fm-container">
+        <div class="back-page" id="back-page">
+            <i class="fa-solid fa-arrow-left"></i>
+        </div>
+        <div class="ct-fm-cl">
+            <div class="ct-fm-sec1">
+                <h2>Contact Form</h2>
+                <h4>Submit a Question</h4>
+                <p>Have a question for us? Enter your name and e-mail address.</p>
+            </div>
+
+            <div class="ct-fm-sec2">
+                <form action="#">
+                    <div class="input-sec">
+                        <label for="name">Your Name :</label>
+                        <input type="text" name="name" id="name" placeholder="Name">
+                    </div>
+                    <div class="input-sec">
+                        <label for="mail">Your Email Address :</label>
+                        <input type="email" name="mail" id="email" placeholder=" Email Address">
+                    </div>
+                    <div class="input-sec">
+                        <label for="subject">Subject :</label>
+                        <input type="text" name="subject" id="subject" placeholder="Your Subject">
+                    </div>
+                    <div class="input-sec">
+                        <label for="question">Question or Comment :</label>
+                        <textarea name="question" id="question" cols="60" rows="10"></textarea>
+                    </div>
+                    <div class="input-sec">
+                        <input type="submit" value="Submit" id="submit-btn">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://kit.fontawesome.com/8e70421b1c.js" crossorigin="anonymous"></script>
+    <script src="./javascript/contact-back.js"></script>
+</body>
+
+</html>

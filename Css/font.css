@@ -1,0 +1,12 @@
+@font-face {
+  font-family: mainfont;
+  src: url(../fonts/Roboto/Roboto-Light.ttf);
+}
+@font-face {
+  font-family: font2;
+  src: url(../fonts/Tektur/Tektur-Medium.ttf);
+}
+@font-face {
+  font-family: font3;
+  src: url(../fonts/Roboto/Roboto-Bold.ttf);
+}
